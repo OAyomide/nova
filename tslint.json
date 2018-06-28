@@ -1,0 +1,28 @@
+{
+  "rules": {
+    "array-type": [
+      true,
+      "array-simple"
+    ],
+    "arrow-parens": true,
+    "no-var-keyword": true,
+    "trailing-comma": [
+      true,{
+        "multiline": "always",
+        "singleline": "never"
+      }
+    ],
+    "class-name": true,
+    "comment-format":[
+      true,
+      "check-space"
+    ],
+    "indent": true,
+    "quotemark": [
+      true,
+      "double"
+    ],
+    "triple-equals": true,
+    "defaultSeverity": "warning"
+  }
+}

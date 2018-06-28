@@ -1,0 +1,16 @@
+{
+  "name": "nova",
+  "version": "0.1.0",
+  "description": "the package manager for astrolang",
+  "main": "index.js",
+  "author": "Ayomide Onigbinde",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "tsc": "tsc --watch",
+    "dev": "nodemon dist/index.js"
+  },
+  "devDependencies": {
+    "tslint": "^5.10.0"
+  }
+}
