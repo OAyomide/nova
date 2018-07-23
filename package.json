@@ -13,5 +13,12 @@
   },
   "devDependencies": {
     "tslint": "^5.10.0"
+  },
+  "dependencies": {
+    "@types/node": "^10.5.2",
+    "commander": "^2.16.0"
+  },
+  "bin": {
+    "novae": "./dist/cli/cli.js"
   }
 }
